@@ -1,0 +1,190 @@
+{
+    "latestVersion": "8",
+    "versions": {
+        "8": {
+            "latestBuild": "154.3",
+            "builds": {
+                "154.3": {
+                    "SupportedLauncherVersion": {
+                        "Major": "1",
+                        "Minor": "any",
+                        "Patch": "any"
+                    },
+                    "type": "beta",
+                    "changelog": [
+                        "Fixed a major data patcher issue that was causing re-initialization and duplication of content",
+                        "Fixed core landing sound playing regardless of volume settings",
+                        "Fixed certain units (Flare, Horizon) being able to shoot even when technically not moving",
+                        "Reverted Flare silicon cost increase, but added silicon to the block build cost",
+                        "Made mods skip texture packing if no new textures are present",
+                        "Added a 'iosCompatible' flag for script mods that work on iOS (experimental)",
+                        "Added a logic unit command for deconstruction; this is disabled by default in the rules",
+                        "Increased strength of coolant in Duo and Hail"
+                    ],
+                    "jar": {
+                        "url": "https://github.com/Anuken/Mindustry/releases/download/v154.3/Mindustry.jar",
+                        "sha256": "221a5cec5b2e0fd47c0a359d51522fd4caa35638b685ec7eda5be4f35d6e5720"
+                    }
+                },
+                "154.2": {
+                    "SupportedLauncherVersion": {
+                        "Major": "1",
+                        "Minor": "any",
+                        "Patch": "any"
+                    },
+                    "type": "beta",
+                    "changelog": [
+                        "Nerfed Flare damage and range significantly",
+                        "Increased liquid capacity of many blocks based on consumption rate",
+                        "Fixed a possible crash",
+                        "Increased Java mod minGameVersion due to new sound effect name changes",
+                        "Removed some unnecessary debug logging during map loads"
+                    ],
+                    "jar": {
+                        "url": "https://github.com/Anuken/Mindustry/releases/download/v154.2/Mindustry.jar",
+                        "sha256": "3d3a779f29deac06ce965ff57a2080f041033655b6f1176b8df1bd67b1bfe5d0"
+                    }
+                },
+                "154.1": {
+                    "SupportedLauncherVersion": {
+                        "Major": "1",
+                        "Minor": "any",
+                        "Patch": "any"
+                    },
+                    "type": "skipped",
+                    "note": "154.1 was skipped, as that version only had some internal deployment fixes for Android/iOS that did not affect other platforms."
+                },
+                "154": {
+                    "SupportedLauncherVersion": {
+                        "Major": "1",
+                        "Minor": "any",
+                        "Patch": "any"
+                    },
+                    "type": "beta",
+                    "note": "This release includes a complete sound rework for most units and blocks, with a focus on Serpulo content. The audio engine has also been improved to handle more simultaneous sounds without cutting off playback.",
+                    "changelog": [
+                        "Made Beta's guns no longer rotate",
+                        "Improved Scepter's secondary weapon visuals and damage (Contributed by @EggleEgg)",
+                        "Made Ripple fire half as frequently with ~2x the damage per shot",
+                        "Removed Flare spawners from Omura (they were annoying and useless for its tech tier)",
+                        "New Flare attack patterns and AI, with a return to older v5 circling behavior - surprisingly, about 85% of the community voted to approve this change in the Discord",
+                        "Increased shale's oil production attribute value",
+                        "Reduced research costs for higher tier units on Serpulo",
+                        "Removed the background wave simulation system - sectors with waves that are not being played on will be frozen in time, and will not produce items",
+                        "Disabled Serpulo sector invasions by default - this system will likely be removed or reworked entirely in the future",
+                        "Enabled core incineration by default",
+                        "Increased active sound cap (32 -> 100)",
+                        "Limited sounds to a maximum of ~6 per type (one sound can't drown out all the others)",
+                        "Complete rework of most sounds in the game, with a focus on Serpulo units and turrets",
+                        "Added a large amount of new sounds to blocks/units/functions that were lacking them",
+                        "Added movement sounds for most units",
+                        "Renamed most sound effects - while this will break mods and logic, it was necessary, as the old sound naming scheme was an incomprehensible mess",
+                        "Fixed the game disabling other audio sources on startup on iOS",
+                        "Many minor bugfixes, crash fixes and improvements for the data patch system",
+                        "Fixed logic insert line button not working properly",
+                        "Fixed the window not being sized to the screen in some cases on iOS",
+                        "Fixed Intel GPUs not being detected properly on Windows"
+                    ],
+                    "jar": {
+                        "url": "https://github.com/Anuken/Mindustry/releases/download/v154/Mindustry.jar",
+                        "sha256": "53a49cf9e26bc9a01bfe90742152b7b615923d1ace4b943e0f8df34377751d71"
+                    }
+                },
+                "153": {
+                    "SupportedLauncherVersion": {
+                        "Major": "1",
+                        "Minor": "any",
+                        "Patch": "any"
+                    },
+                    "type": "beta",
+                    "note": "The highlight of this release is a new system for patching stats of content on servers and maps. This system will allow players to customize health, requirements, recipes, weapons, bullets, etc. individually. This is not a replacement for modding, as it does not allow adding new assets or content, but it does allow making major changes to the way the game is played and balanced.",
+                    "changelog": [
+                        "Fixed certain campaign maps always resetting after sector loss",
+                        "Fixed unit assembler clogging in certain conditions",
+                        "Fixed zip file exports on Android being corrupted when overwriting an existing file",
+                        "Fixed overlay floors under liquids not being removed when placed over in the editor",
+                        "Fixed Sublimate not firing correctly at low liquid flow rates",
+                        "Fixed planet normals displaying incorrectly on OpenGL 2 devices",
+                        "Fixed default planet mesh displaying as a mess in mods",
+                        "Potentially fixed Android ANRs due to sprite packing occurring on main thread",
+                        "Updated many different campaign submissions for Serpulo",
+                        "Added a sector attempt counter",
+                        "Added a button to insert instructions between lines in the logic editor",
+                        "Added the core database button to the pause menu on mobile",
+                        "Made rotation of certain buildings stay constant when dragged as a line",
+                        "Made iOS version use MetalANGLE for graphics, increasing performance and allowing FPS values above 60 on some devices (this may be buggy, please report crashes/graphics issues)",
+                        "Buffed Quasar and Pulsar units",
+                        "The Thorium Reactor block now outputs heat (for mixtech)"
+                    ],
+                    "jar": {
+                        "url": "https://github.com/Anuken/Mindustry/releases/download/v153/Mindustry.jar",
+                        "sha256": "6541965beedde5bcce00b4161fd944071d9ebcd9d224da2a660903cc61471812"
+                    }
+                },
+                "152.2": {
+                    "SupportedLauncherVersion": {
+                        "Major": "1",
+                        "Minor": "any",
+                        "Patch": "any"
+                    },
+                    "type": "beta",
+                    "changelog": [
+                        "Fixed a few more campaign map submissions",
+                        "Added extra borders to make display cutout areas look slightly less awful on Android",
+                        "Added a difficulty modifier to clear Serpulo sectors upon loss instead of carrying over buildings from the previous attempt"
+                    ],
+                    "jar": {
+                        "url": "https://github.com/Anuken/Mindustry/releases/download/v152.2/Mindustry.jar",
+                        "sha256": "a8c4a18440c304ddf32aed23ef2c638c8c568db4c9dbecaf91cf46f57193502c"
+                    }
+                },
+                "152.1": {
+                    "SupportedLauncherVersion": {
+                        "Major": "1",
+                        "Minor": "any",
+                        "Patch": "any"
+                    },
+                    "type": "beta",
+                    "changelog": [
+                        "Fixed turrets not being rotated clientside when placed on servers",
+                        "Fixed turrets not rotating the correct way during construction",
+                        "Fixed derelict structures not functioning properly after being repaired",
+                        "Fixed liquid junctions not being place-able on edges of deep water",
+                        "Fixed infinite items being enabled in a hidden sector"
+                    ],
+                    "jar": {
+                        "url": "https://github.com/Anuken/Mindustry/releases/download/v152.1/Mindustry.jar",
+                        "sha256": "fdce68bda29363bf9eeec069e753cbbab45f30b9d353a2dc3f51889e57f8e0fc"
+                    }
+                },
+                "152": {
+                    "SupportedLauncherVersion": {
+                        "Major": "1",
+                        "Minor": "any",
+                        "Patch": "any"
+                    },
+                    "type": "beta",
+                    "changelog": [
+                        "Fixed bound unit not saving in logic blocks",
+                        "Made water extractor less effective on charred stone tiles",
+                        "Made turrets rotate-able during placement",
+                        "Made Mindustry use a OpenGL 2 context on Intel GPUs as a possible workaround for a driver memory corruption bug",
+                        "Made remove ore/wall 'blocks' always show up in in-game editor results",
+                        "Disabled shooting in the editor",
+                        "Added buttons for toggling map layers in the editor",
+                        "Many various community-submitted Erekir unit balancing adjustments",
+                        "On Erekir, launch location will now be selected based on items required, to reduce confusion",
+                        "Added 30+ procedural attack sector replacement submissions from the community - these are currently untested, please leave feedback on the relevant threads from the in-game link",
+                        "When losing a sector on Serpulo, all player structures from the previous run now become derelict",
+                        "On Serpulo, derelict structures and plans from previous runs are now always carried over, even when a map has a world processor in it",
+                        "Removed thorium from sector 218 on Serpulo (in the future, it will be replaced by a hand-made sector)"
+                    ],
+                    "jar": {
+                        "url": "https://github.com/Anuken/Mindustry/releases/download/v152/Mindustry.jar",
+                        "sha256": "046ec7b1edea5146a1c3dc68da9015eece22656de9ff079f3713787a9295d944"
+                    }
+                }
+            }
+        }
+    }
+}
