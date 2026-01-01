@@ -10,6 +10,7 @@
                         "Minor": ">=0",
                         "Patch": ">=0"
                     },
+                    "enabled": true,
                     "type": "beta",
                     "changelog": [
                         "Fixed a major data patcher issue that was causing re-initialization and duplication of content",
@@ -32,6 +33,7 @@
                         "Minor": ">=0",
                         "Patch": ">=0"
                     },
+                    "enabled": true,
                     "type": "beta",
                     "changelog": [
                         "Nerfed Flare damage and range significantly",
@@ -51,6 +53,7 @@
                         "Minor": ">=0",
                         "Patch": ">=0"
                     },
+                    "enabled": true,
                     "type": "skipped",
                     "note": "154.1 was skipped, as that version only had some internal deployment fixes for Android/iOS that did not affect other platforms."
                 },
@@ -60,6 +63,7 @@
                         "Minor": ">=0",
                         "Patch": ">=0"
                     },
+                    "enabled": true,
                     "type": "beta",
                     "note": "This release includes a complete sound rework for most units and blocks, with a focus on Serpulo content. The audio engine has also been improved to handle more simultaneous sounds without cutting off playback.",
                     "changelog": [
@@ -96,6 +100,7 @@
                         "Minor": ">=0",
                         "Patch": ">=0"
                     },
+                    "enabled": true,
                     "type": "beta",
                     "note": "The highlight of this release is a new system for patching stats of content on servers and maps. This system will allow players to customize health, requirements, recipes, weapons, bullets, etc. individually. This is not a replacement for modding, as it does not allow adding new assets or content, but it does allow making major changes to the way the game is played and balanced.",
                     "changelog": [
@@ -127,6 +132,7 @@
                         "Minor": ">=0",
                         "Patch": ">=0"
                     },
+                    "enabled": true,
                     "type": "beta",
                     "changelog": [
                         "Fixed a few more campaign map submissions",
@@ -144,6 +150,7 @@
                         "Minor": ">=0",
                         "Patch": ">=0"
                     },
+                    "enabled": true,
                     "type": "beta",
                     "changelog": [
                         "Fixed turrets not being rotated clientside when placed on servers",
@@ -163,6 +170,7 @@
                         "Minor": ">=0",
                         "Patch": ">=0"
                     },
+                    "enabled": true,
                     "type": "beta",
                     "changelog": [
                         "Fixed bound unit not saving in logic blocks",
