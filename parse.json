@@ -1,4 +1,10 @@
 {
+  "//license": {
+    "name": "Apache License 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "copyright": "Copyright 2026 zvenios",
+    "repository": "https://github.com/zvenios/mindustry-launcher-data"
+  },
   "SupportedLauncherVersion": {
     "Major": ">=1",
     "Minor": ">=0",
